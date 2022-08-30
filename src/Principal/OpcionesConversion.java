@@ -1,6 +1,6 @@
 package Principal;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class OpcionesConversion extends RuntimeException {
 
@@ -90,6 +90,5 @@ public class OpcionesConversion extends RuntimeException {
 		}catch(NumberFormatException ex) {
 			JOptionPane.showMessageDialog(null, "Debe escribir solamente numeros", "alert", JOptionPane.ERROR_MESSAGE);
 		}
-		
 	}
 }
